@@ -6,9 +6,10 @@ export default defineConfig({
     tailwindcss(),
   ],
   server: {
-    host: '0.0.0.0',       // sabhi IPs se accessible banata hai (IIS included)
-    port: 1100,            // tumhara frontend IIS URL ka port
-    strictPort: true       // agar port 1100 busy ho to error dega (auto switch nahi karega)
+    host: '0.0.0.0',
+    port: 1100,
+    strictPort: true,
+    allowedHosts: ['smartdhobi.in', 'www.smartdhobi.in']  // ✅ both domains added
   },
   preview: {
     host: '0.0.0.0',
