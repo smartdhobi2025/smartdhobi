@@ -11,7 +11,7 @@ dotenv.config();
 const app = express();  
 const server = http.createServer(app);
 
-// === Initialize socket.io ====
+// === Initialize socket.io ===
 initSocket(server); // 👈 call socket setup here
 
 // === Middleware ===
