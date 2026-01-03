@@ -33,6 +33,8 @@ import OrdersDisplay from "./pages/order/OrdersDisplay";
 import OrderDetailsModal from "./pages/dhobi/OrderDetailsModal";
 import DhobiOrderDisplay from "./pages/dhobi/DhobiOrderDisplay";
 import DhobiServices from "./pages/dhobi/DhobiServices";
+import TermsAndConditions from "./pages/about/TermsAndConditions";
+import AboutUs from "./pages/about/AboutUs";
 
 // Verification Pending Component
 const DhobiVerificationPending = () => {
@@ -263,6 +265,8 @@ const AppRouter = () => {
       <Routes>
         {/* Public Routes */}
         <Route path="/login" element={<Login />} />
+        <Route path="/terms-conditions" element={<TermsAndConditions />} />
+        <Route path="/aboutUs" element={<AboutUs />} />
         <Route path="/dhobi-register" element={<DhobiRegistration />} />
         <Route path="/" element={<LandryServiceApp />} />
 

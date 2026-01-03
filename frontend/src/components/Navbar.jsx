@@ -49,6 +49,19 @@ const Navbar = ({ handleLoginClick, handleRegisterClick, isMenuOpen,setIsMenuOpe
             >
               Find Nearby
             </a>
+            <a
+              href="/aboutUs"
+              className="text-gray-700 hover:text-purple-600 transition-colors font-medium"
+            >
+              About Us
+            </a>
+            <a
+              href="/terms-conditions"
+              className="text-gray-700 hover:text-purple-600 transition-colors font-medium"
+            >
+              Terms And Conditions
+            </a>
+            
 
             <div className="flex items-center space-x-3">
               <button
@@ -99,6 +112,18 @@ const Navbar = ({ handleLoginClick, handleRegisterClick, isMenuOpen,setIsMenuOpe
               className="block py-2 text-gray-700 hover:text-purple-600 transition-colors"
             >
               Find Nearby
+            </a>
+            <a
+              href="/aboutUs"
+              className="block py-2 text-gray-700 hover:text-purple-600 transition-colors"
+            >
+              About Us
+            </a>
+            <a
+              href="/terms-conditions"
+              className="block py-2 text-gray-700 hover:text-purple-600 transition-colors"
+            >
+              Terms And Conditions
             </a>
             <hr className="border-purple-100" />
             <button

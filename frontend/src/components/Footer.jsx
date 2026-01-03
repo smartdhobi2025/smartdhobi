@@ -44,9 +44,9 @@ const Footer = () => (
         <div>
           <h4 className="text-lg font-semibold mb-4">Company</h4>
           <ul className="space-y-2 text-gray-400">
-            <li>About Us</li>
+            <li><a href="/aboutUs">About Us</a></li>
             <li>Contact</li>
-            <li>Terms of Service</li>
+            <li><a href="/terms-conditions">Terms of Service</a></li>
             <li>Privacy Policy</li>
           </ul>
         </div>
