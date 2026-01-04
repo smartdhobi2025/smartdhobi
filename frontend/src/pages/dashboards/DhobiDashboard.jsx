@@ -30,7 +30,7 @@ function DhobiDashboard() {
     // {
     //   id: "ORD001",
     //   customerName: "Rahul Sharma",
-    //   customerPhone: "+91 9876543210",
+    //   customerPhone: "+91 7558618689",
     //   service: "Wash & Fold",
     //   amount: 120,
     //   status: "pending",
