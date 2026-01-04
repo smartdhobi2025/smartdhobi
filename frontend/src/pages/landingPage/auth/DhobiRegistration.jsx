@@ -17,6 +17,7 @@ import FormTextarea from "../../../components/basicComponent/FormTextArea";
 import logo from "../../../assets/logo.png"; // Assuming same logo path
 import { registreDhobi } from "../../../auth/ApiConnect";
 import { useNavigate } from "react-router-dom";
+import Navbar from "../../../components/Navbar";
 
 function DhobiRegistration() {
   const [step, setStep] = useState(1);
@@ -144,8 +145,11 @@ function DhobiRegistration() {
   };
 
   return (
+    <>
+       <Navbar/>
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-white to-pink-50 p-4">
       {/* Background Animation */}
+   
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-20 left-10 w-32 h-32 bg-purple-200 rounded-full opacity-20 animate-pulse"></div>
         <div className="absolute bottom-20 right-10 w-24 h-24 bg-pink-200 rounded-full opacity-20 animate-bounce"></div>
@@ -604,6 +608,7 @@ function DhobiRegistration() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 

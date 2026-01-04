@@ -30,11 +30,11 @@ function AboutUs() {
 
           {/* Main Content Card */}
           <div className="bg-white/60 backdrop-blur-sm rounded-3xl p-8 md:p-12 border border-purple-100 shadow-xl mb-12">
-            <div className="flex items-center justify-center mb-8">
+            {/* <div className="flex items-center justify-center mb-8">
               <div className="w-20 h-20 bg-gradient-to-br from-purple-600 to-pink-500 rounded-2xl flex items-center justify-center">
                 <Sparkles className="text-white w-10 h-10" />
               </div>
-            </div>
+            </div> */}
             
             <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">
               Welcome to SmartDhobi
