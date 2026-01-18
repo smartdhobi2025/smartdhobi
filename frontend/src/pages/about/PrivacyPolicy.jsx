@@ -117,6 +117,7 @@ function PrivacyPolicy() {
               <span className="bg-gradient-to-r from-purple-600 via-pink-500 to-purple-800 bg-clip-text text-transparent">
                 Privacy Policy
               </span>
+              
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               SmartDhobi Privacy Policy - Your privacy matters to us. Learn how we collect, use, and protect your data.
